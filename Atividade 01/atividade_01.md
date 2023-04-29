@@ -13,3 +13,10 @@ Eulerian Graph: Grafo G que pelo menos um ciclo em G apresente todas as suas are
 2. Breadth-first Search:
 
 Algoritmo de busca em grafos que tem como principal objetivo realizar uma busca em um grafo ou estrutura de dados com o intuito de encontrar um nó que satisfaça um conjunto de critérios.
+
+3. Quantas arestas tem um grafo completo com n vértices? E quanto a um grafo direcionado completo com n vértices?
+- Grafo completo: O grafo completo tem como maior número de arestas n(n-1)/2;
+- Grafo direcionado completo: Já o grafo direcionado completo possui n(n-1) arestas.
+
+4. Grafos Isomorfos: São grafos que têm entre os seus vértices uma correspondência biunívoca e que preservam a relação de adjacência entre vértices e arestas
+https://colab.research.google.com/drive/1MfzN67JD4idyUAGqyyY-dFSE-JBgBGQB#scrollTo=BOqBoqAtn5vx&line=5&uniqifier=1
