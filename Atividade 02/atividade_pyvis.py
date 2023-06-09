@@ -15,7 +15,7 @@ import pandas as pd
 from pyvis.network import Network
 from IPython.core.display import display, HTML
 
-df = pd.read_csv("/content/drive/MyDrive/Datasets/actorfilms.csv", usecols = [ "Actor" , "Film", "Year"])
+df = pd.read_csv("data/actorfilms.csv", usecols = [ "Actor" , "Film", "Year"])
 df = df.sort_values(by="Year", ascending=False).head(3000) 
 print(df)
 
