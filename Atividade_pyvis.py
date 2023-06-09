@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1OpIZz8Bjz7e2l6LrFyCD4TTaapXtmd6S
 """
 
-!pip install pyvis
+pip install pyvis
 
 import networkx as nx
 import matplotlib.pyplot as plt
