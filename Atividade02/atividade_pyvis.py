@@ -8,7 +8,7 @@ from IPython.core.display import display, HTML
 import streamlit as st
 import streamlit.components.v1 as components
 
-df = pd.read_csv("data/hero-network.csv", usecols = [ "hero" , "hero_connection"])
+df = pd.read_csv("Atividade02/data/hero-network.csv", usecols = [ "hero" , "hero_connection"])
 df = df.sort_values(by="hero", ascending=False).head(3000) 
 print(df)
 
